@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<root>
+  <item index="0">
+    <x>303</x>
+    <y>180</y>
+    <stroke>#000000</stroke>
+    <fill>transparent</fill>
+    <strokeWidth>5</strokeWidth>
+    <type>ellipse</type>
+    <radiusX>97</radiusX>
+    <radiusY>63.5</radiusY>
+  </item>
+  <item index="1">
+    <x>549</x>
+    <y>187</y>
+    <stroke>#c47373</stroke>
+    <fill>transparent</fill>
+    <strokeWidth>5</strokeWidth>
+    <type>circle</type>
+    <radius>96</radius>
+  </item>
+  <item index="2">
+    <x>607</x>
+    <y>186</y>
+    <stroke>#000000</stroke>
+    <fill>transparent</fill>
+    <strokeWidth>5</strokeWidth>
+    <type>rectangle</type>
+    <width>259</width>
+    <height>146</height>
+  </item>
+  <item index="3">
+    <type>triangle</type>
+    <points>984,316,1216,316,1100,189</points>
+    <stroke>#000000</stroke>
+    <fill>transparent</fill>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="4">
+    <type>line</type>
+    <points>896,59,952,435</points>
+    <stroke>#000000</stroke>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="5">
+    <x>305</x>
+    <y>361</y>
+    <stroke>#000000</stroke>
+    <fill>transparent</fill>
+    <strokeWidth>5</strokeWidth>
+    <type>rectangle</type>
+    <width>259</width>
+    <height>146</height>
+    <draggable>true</draggable>
+    <rotation>0</rotation>
+    <scaleX>1</scaleX>
+    <scaleY>1</scaleY>
+    <offsetX>0</offsetX>
+    <offsetY>0</offsetY>
+    <skewX>0</skewX>
+    <skewY>0</skewY>
+  </item>
+  <item index="6">
+    <x>739</x>
+    <y>449</y>
+    <stroke>#000000</stroke>
+    <fill>transparent</fill>
+    <strokeWidth>5</strokeWidth>
+    <type>circle</type>
+    <radius>96</radius>
+    <draggable>true</draggable>
+    <rotation>0</rotation>
+    <scaleX>1</scaleX>
+    <scaleY>1</scaleY>
+    <offsetX>0</offsetX>
+    <offsetY>0</offsetY>
+    <skewX>0</skewX>
+    <skewY>0</skewY>
+  </item>
+  <item index="7">
+    <x>160</x>
+    <y>343</y>
+    <stroke>#000000</stroke>
+    <fill>transparent</fill>
+    <strokeWidth>5</strokeWidth>
+    <type>ellipse</type>
+    <radiusX>97</radiusX>
+    <radiusY>63.5</radiusY>
+    <draggable>true</draggable>
+    <rotation>0</rotation>
+    <scaleX>1</scaleX>
+    <scaleY>1</scaleY>
+    <offsetX>0</offsetX>
+    <offsetY>0</offsetY>
+    <skewX>0</skewX>
+    <skewY>0</skewY>
+  </item>
+</root>

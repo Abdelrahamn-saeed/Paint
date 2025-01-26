@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<root>
+  <item index="0">
+    <type>circle</type>
+    <x>360</x>
+    <y>125</y>
+    <radius>71</radius>
+    <stroke>#000000</stroke>
+    <fill>#d53030</fill>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="1">
+    <type>square</type>
+    <x>482</x>
+    <y>67</y>
+    <size>153</size>
+    <stroke>#000000</stroke>
+    <fill>#d53030</fill>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="2">
+    <type>rectangle</type>
+    <x>673</x>
+    <y>65</y>
+    <width>187</width>
+    <height>51</height>
+    <stroke>#000000</stroke>
+    <fill>#d53030</fill>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="3">
+    <type>rectangle</type>
+    <x>678</x>
+    <y>152</y>
+    <width>179</width>
+    <height>59</height>
+    <stroke>#000000</stroke>
+    <fill>#d53030</fill>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="4">
+    <type>triangle</type>
+    <points>887,72,1060,72,973.5,198</points>
+    <stroke>#000000</stroke>
+    <fill>#d53030</fill>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="5">
+    <type>line</type>
+    <points>756,317,1041,323</points>
+    <stroke>#000000</stroke>
+    <strokeWidth>5</strokeWidth>
+    <x>6</x>
+    <y>78</y>
+  </item>
+  <item index="6">
+    <type>line</type>
+    <points>1040,338,750,327</points>
+    <stroke>#000000</stroke>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="7">
+    <type>line</type>
+    <points>848,316,851,395</points>
+    <stroke>#000000</stroke>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="8">
+    <x>481</x>
+    <y>233</y>
+    <width>153</width>
+    <height>153</height>
+    <fill>#d53030</fill>
+    <stroke>#000000</stroke>
+    <strokeWidth>5</strokeWidth>
+    <draggable>true</draggable>
+    <type>square</type>
+    <size>153</size>
+  </item>
+  <item index="9">
+    <type>circle</type>
+    <x>358</x>
+    <y>276</y>
+    <radius>71</radius>
+    <stroke>#000000</stroke>
+    <fill>#d53030</fill>
+    <strokeWidth>5</strokeWidth>
+    <draggable>true</draggable>
+  </item>
+  <item index="10">
+    <type>rectangle</type>
+    <x>698</x>
+    <y>172</y>
+    <width>179</width>
+    <height>59</height>
+    <stroke>#000000</stroke>
+    <fill>#d53030</fill>
+    <strokeWidth>5</strokeWidth>
+    <draggable>true</draggable>
+  </item>
+  <item index="11">
+    <type>rectangle</type>
+    <x>693</x>
+    <y>84</y>
+    <width>187</width>
+    <height>51</height>
+    <stroke>#000000</stroke>
+    <fill>#d53030</fill>
+    <strokeWidth>5</strokeWidth>
+    <draggable>true</draggable>
+  </item>
+  <item index="12">
+    <points>907,92,1080,92,993.5,218</points>
+    <stroke>#000000</stroke>
+    <strokeWidth>5</strokeWidth>
+    <fill>#d53030</fill>
+    <draggable>true</draggable>
+    <closed>true</closed>
+    <type>triangle</type>
+  </item>
+  <item index="13">
+    <type>line</type>
+    <points>1060,358,770,347</points>
+    <stroke>#000000</stroke>
+    <strokeWidth>5</strokeWidth>
+    <draggable>true</draggable>
+  </item>
+  <item index="14">
+    <type>line</type>
+    <points>776,337,1061,343</points>
+    <stroke>#000000</stroke>
+    <strokeWidth>5</strokeWidth>
+    <draggable>true</draggable>
+    <x>6</x>
+    <y>78</y>
+    <rotation>0</rotation>
+    <scaleX>1</scaleX>
+    <scaleY>1</scaleY>
+    <offsetX>0</offsetX>
+    <offsetY>0</offsetY>
+    <skewX>0</skewX>
+    <skewY>0</skewY>
+  </item>
+  <item index="15">
+    <type>line</type>
+    <points>868,336,871,415</points>
+    <stroke>#000000</stroke>
+    <strokeWidth>5</strokeWidth>
+    <draggable>true</draggable>
+  </item>
+  <item index="16">
+    <type>free-drawing</type>
+    <points>676,481,678,483,678,484,680,484,680,484,681,486,683,487,684,488,688,490,691,492,693,495,698,497,700,499,705,502,708,503,713,504,719,506,724,508,729,509,735,510,740,510,744,510,749,510,754,511,760,511,764,511,769,511,776,511,780,511,785,511,791,511,794,510,797,509,801,508,804,508,808,506,811,505,814,504,817,502,820,501,825,500,827,500,832,499,835,496,836,495,838,494,840,494,842,494,846,492,847,492,848,490,850,490,852,488,854,488,854,487,856,486,856,486,859,484,861,484,864,483,865,482,870,481,872,480,874,479,877,477,881,477,884,477,887,476,888,475,892,475,893,475,895,475,899,475,900,475,904,475,906,475,909,475,911,475,913,475,917,475,923,475,925,475,930,476,933,476,938,478,940,478,944,479,944,479,948,480,952,480,956,481,959,482,963,484,965,484,969,486,973,486,976,487,980,488,980,488,983,489,984,490,987,491,989,493,992,493,995,495,996,496,999,498,1004,499,1006,500,1012,501,1015,503,1018,504,1023,505,1026,506,1029,508,1033,508,1040,512,1043,512,1047,513,1052,513,1058,513,1060,513,1066,513,1072,513,1077,512,1079,512,1083,512,1090,511,1094,511,1097,511,1101,511,1104,508,1110,508,1112,506,1116,505,1119,505,1124,504,1125,504,1128,501,1131,500,1132,500,1133,499,1136,497,1138,496,1140,495,1143,492,1144,492,1148,488,1149,487,1153,484,1154,482,1156,481,1157,480,1159,479,1160,477,1161,476,1163,474,1164,472,1166,470,1167,468,1168,467,1169,464,1170,464,1172,461,1172,459,1174,456,1176,453,1177,451,1179,448,1179,447,1180,444,1180,443,1183,440,1184,438,1185,438,1186,435,1186,434,1187,432,1187,432,1188,430,1188,429,1188,428,1189,428</points>
+    <stroke>#000000</stroke>
+    <strokeWidth>7</strokeWidth>
+  </item>
+</root>

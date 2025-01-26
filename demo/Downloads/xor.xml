@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<root>
+  <item index="0">
+    <type>triangle</type>
+    <points>538,116,685,116,611.5,213</points>
+    <stroke>#000000</stroke>
+    <fill>#cd3737</fill>
+    <strokeWidth>5</strokeWidth>
+  </item>
+  <item index="1">
+    <type>triangle</type>
+    <points>692,213,813,213,752.5,115</points>
+    <stroke>#000000</stroke>
+    <fill>#cd3737</fill>
+    <strokeWidth>5</strokeWidth>
+  </item>
+</root>
