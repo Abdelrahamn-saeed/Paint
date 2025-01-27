@@ -2,7 +2,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import { FiMousePointer } from "react-icons/fi";
 import { SaveDialog } from "./Save/savecomponent";
 import { LoadDialog } from "./Load/loadcomponent";
-import ShapeButtons from "./Shapes/ShapesButtons";
+import ShapeButtons from "./Shapes/ShapeButtons/ShapesButtons";
 import CopyButton from "./Copy/CopyButton";
 import DeleteButton from "./Delete/DeleteButton";
 import ColorPicker from "./Colors/ColorPicker";

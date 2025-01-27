@@ -1,4 +1,4 @@
-import { HistoryManager } from "../UndoAndRedo/HistoryManager";
+import { HistoryManager } from "../../UndoAndRedo/HistoryManager";
 
 export const FreeHand = {
 
