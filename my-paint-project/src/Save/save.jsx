@@ -47,10 +47,8 @@ export function xmlToArray(xmlString) {
     });
  }
 export function save(shapes){ 
-    window.alert("file is saved");
     const path=document.getElementById("savepath").value+document.getElementById("savename").value+'.'+document.getElementById("data-format").value;
    
-  
     if (shapes.length === 0) {
         alert("No shapes to save!");
         return;

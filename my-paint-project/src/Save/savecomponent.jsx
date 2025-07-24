@@ -1,10 +1,24 @@
 import React, { useState } from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
+import { Notification } from '../Notification';
+
 export const SaveDialog = ({handleSave}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [filename, setFilename] = useState('');
   const [format, setFormat] = useState('json');
+  const [notification, setNotification] = useState({ show: false, message: '', type: 'success' });
   const defaultPath = 'Downloads/';
+
+  const handleSaveClick = async () => {
+    try {
+      await handleSave();
+      setNotification({ show: true, message: 'File saved successfully!', type: 'success' });
+    } catch (error) {
+      setNotification({ show: true, message: 'Error saving file', type: 'error' });
+    }
+    setIsOpen(false);
+  };
+
   return (
     <div className="saveDiv" >
       <button 
@@ -158,7 +172,7 @@ export const SaveDialog = ({handleSave}) => {
                 Cancel
               </button>
               <button
-                onClick={handleSave}
+                onClick={handleSaveClick}
                 disabled={!filename}
                 style={{
                   padding: '10px 20px',
@@ -182,6 +196,12 @@ export const SaveDialog = ({handleSave}) => {
           </div>
         </div>
       )}
+      <Notification 
+        message={notification.message}
+        type={notification.type}
+        isVisible={notification.show}
+        onClose={() => setNotification(prev => ({ ...prev, show: false }))}
+      />
     </div>
   );
 };
