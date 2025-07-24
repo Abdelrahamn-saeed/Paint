@@ -35,20 +35,33 @@ export const SaveDialog = ({handleSave}) => {
         >
           <div 
             style={{
-              backgroundColor: 'white',
-              padding: '20px',
-              borderRadius: '8px',
-              width: '400px',
-              boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+              backgroundColor: '#ffffff',
+              padding: '30px',
+              borderRadius: '12px',
+              width: '450px',
+              boxShadow: '0 8px 24px rgba(0,0,0,0.15)',
+              border: '1px solid #e1e1e1'
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            <h2 style={{marginBottom: '20px', fontSize: '1.25rem', fontWeight: 'bold',padding:'20px'}}>
+            <h2 style={{
+              marginBottom: '25px', 
+              fontSize: '1.5rem', 
+              fontWeight: 'bold',
+              color: '#2778be',
+              borderBottom: '2px solid #2778be',
+              paddingBottom: '10px'
+            }}>
               Save File
             </h2>
             
-            <div style={{marginBottom: '15px',padding:'20px'}}>
-              <label style={{display: 'block', marginBottom: '5px'}}>
+            <div style={{marginBottom: '20px'}}>
+              <label style={{
+                display: 'block', 
+                marginBottom: '8px',
+                color: '#555',
+                fontWeight: '500'
+              }}>
                 Path
               </label>
               <input
@@ -57,17 +70,23 @@ export const SaveDialog = ({handleSave}) => {
                 value={defaultPath}
                 style={{
                   width: '100%',
-                  padding: '8px',
-                  border: '1px solid #ccc',
-                  borderRadius: '4px',
-                  backgroundColor: '#f0f0f0'
+                  padding: '10px',
+                  border: '1px solid #ddd',
+                  borderRadius: '6px',
+                  backgroundColor: '#f8f8f8',
+                  fontSize: '14px'
                 }}
                 disabled
               />
             </div>
             
-            <div style={{marginBottom: '15px',padding:'20px'}}>
-              <label style={{display: 'block', marginBottom: '5px'}}>
+            <div style={{marginBottom: '20px'}}>
+              <label style={{
+                display: 'block', 
+                marginBottom: '8px',
+                color: '#555',
+                fontWeight: '500'
+              }}>
                 Filename
               </label>
               <input
@@ -78,15 +97,23 @@ export const SaveDialog = ({handleSave}) => {
                 onChange={(e) => setFilename(e.target.value)}
                 style={{
                   width: '100%',
-                  padding: '8px',
-                  border: '1px solid #ccc',
-                  borderRadius: '4px'
+                  padding: '10px',
+                  border: '1px solid #ddd',
+                  borderRadius: '6px',
+                  fontSize: '14px',
+                  transition: 'border-color 0.3s',
+                  outline: 'none'
                 }}
               />
             </div>
             
-            <div style={{marginBottom: '15px',padding:'20px'}}>
-              <label style={{display: 'block', marginBottom: '5px'}}>
+            <div style={{marginBottom: '25px'}}>
+              <label style={{
+                display: 'block', 
+                marginBottom: '8px',
+                color: '#555',
+                fontWeight: '500'
+              }}>
                 Format
               </label>
               <select
@@ -95,9 +122,11 @@ export const SaveDialog = ({handleSave}) => {
                 onChange={(e) => setFormat(e.target.value)}
                 style={{
                   width: '100%',
-                  padding: '8px',
-                  border: '1px solid #ccc',
-                  borderRadius: '4px'
+                  padding: '10px',
+                  border: '1px solid #ddd',
+                  borderRadius: '6px',
+                  fontSize: '14px',
+                  cursor: 'pointer'
                 }}
               >
                 <option value="json">JSON</option>
@@ -108,18 +137,23 @@ export const SaveDialog = ({handleSave}) => {
             <div style={{
               display: 'flex', 
               justifyContent: 'flex-end', 
-              gap: '10px'
+              gap: '12px',
+              marginTop: '20px'
             }}>
               <button
                 onClick={() => setIsOpen(false)}
                 style={{
-                  padding: '8px 16px',
+                  padding: '10px 20px',
                   backgroundColor: '#f0f0f0',
-                  border: '1px solid #ccc',
-                  borderRadius: '4px',
-                  color:'black'
+                  border: 'none',
+                  borderRadius: '6px',
+                  color: '#333',
+                  fontWeight: '500',
+                  cursor: 'pointer',
+                  transition: 'background-color 0.3s'
                 }}
-           
+                onMouseOver={(e) => e.target.style.backgroundColor = '#e4e4e4'}
+                onMouseOut={(e) => e.target.style.backgroundColor = '#f0f0f0'}
               >
                 Cancel
               </button>
@@ -127,15 +161,20 @@ export const SaveDialog = ({handleSave}) => {
                 onClick={handleSave}
                 disabled={!filename}
                 style={{
-                  padding: '8px 16px',
+                  padding: '10px 20px',
                   backgroundColor: '#2778be',
-                  border: '1px solid #ccc',
-                  borderRadius: '4px',
-                  color:'Black'
+                  border: 'none',
+                  borderRadius: '6px',
+                  color: 'white',
+                  fontWeight: '500',
+                  cursor: filename ? 'pointer' : 'not-allowed',
+                  opacity: filename ? 1 : 0.7,
+                  transition: 'all 0.3s'
                 }}
-               
-         
-                
+                onMouseOver={(e) => {
+                  if (filename) e.target.style.backgroundColor = '#1c5c94'
+                }}
+                onMouseOut={(e) => e.target.style.backgroundColor = '#2778be'}
               >
                 Save
               </button>
